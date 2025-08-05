@@ -1,6 +1,6 @@
 # Lawyer-Focused Paginated Editor
 
-Live Demo: https://vettam-ai-one.vercel.app/
+**Live Demo:** [https://vettam-ai-one.vercel.app/](https://vettam-ai-one.vercel.app/)
 
 A minimal React + Tiptap prototype demonstrating paginated editing for legal-style documents.
 
@@ -27,6 +27,7 @@ A minimal React + Tiptap prototype demonstrating paginated editing for legal-sty
 ```bash
 # Clone the repo
 git clone https://github.com/hemraj-007/Vettam-AI
+cd page-editor
 
 # Install dependencies
 npm install
@@ -62,7 +63,7 @@ src/
 ├── extensions/
 │   └── PageBreak.ts     # Custom Tiptap page-break extension
 ├── App.tsx              # Layout, tabs, and global UI
-└── index.tsx            # Entry point
+└── main.tsx            # Entry point
 ```
 
 ## Customization
