@@ -1,4 +1,3 @@
-// src/components/Sidebar.tsx
 import React, { useState } from "react";
 import { 
   FaFileAlt,
@@ -36,7 +35,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen}) => {
         
         <div className="relative z-10 flex flex-col items-center space-y-6">
           {/* Logo */}
-          <div className="w-8 h-8 bg-gradient-to-br from-orange-400 to-red-500 rounded-lg flex items-center justify-center shadow-lg">
+          <div className="w-8 h-8 bg-gradient-to-br from-blue-400 to-red-500 rounded-lg flex items-center justify-center shadow-lg">
             <span className="text-white font-bold text-sm">$</span>
           </div>
           
@@ -78,12 +77,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen}) => {
         <div className="p-6">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-lg">$</span>
               </div>
               <div>
                 <h2 className="text-lg font-semibold text-white">
-                  Alspire
+                  Vettam
                 </h2>
               </div>
             </div>
@@ -165,9 +164,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen}) => {
           <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20">
             <h3 className="text-white font-semibold text-sm mb-2">Let's start!</h3>
             <p className="text-white/70 text-xs mb-4 leading-relaxed">
-              Get familiar with Alspire by exploring and testing product features
+              Get familiar with Vettam by exploring and testing product features
             </p>
-            <button className="w-full bg-gradient-to-r from-orange-400 to-red-500 text-white font-medium text-sm py-2.5 px-4 rounded-xl hover:from-orange-500 hover:to-red-600 transition-all duration-200 shadow-lg">
+            <button className="w-full bg-gradient-to-r from-blue-400 to-red-500 text-white font-medium text-sm py-2.5 px-4 rounded-xl hover:from-blue-500 hover:to-red-600 transition-all duration-200 shadow-lg">
               <div className="flex items-center justify-center space-x-2">
                 <span>🚀</span>
                 <span>AI-Powered Analytics</span>
