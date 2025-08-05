@@ -27,7 +27,6 @@ A minimal React + Tiptap prototype demonstrating paginated editing for legal-sty
 ```bash
 # Clone the repo
 git clone https://github.com/hemraj-007/Vettam-AI
-cd page-editor
 
 # Install dependencies
 npm install
