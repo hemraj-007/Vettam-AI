@@ -1,5 +1,6 @@
 # Lawyer-Focused Paginated Editor
 
+Live Demo: https://vettam-ai-one.vercel.app/
 A minimal React + Tiptap prototype demonstrating paginated editing for legal-style documents.
 
 ## Features
